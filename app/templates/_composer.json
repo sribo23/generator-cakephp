@@ -4,7 +4,7 @@
   },
   "require": {
     "php": ">=5.3",
-    "cakephp/cakephp" : "2.3.9",
+    "cakephp/cakephp" : "2.6.0",
     "cakephp/debug_kit": "dev-master",
     "phpunit/phpunit" : "*",
     "cakephp-plugin/sledgehammer": "*",
@@ -16,15 +16,15 @@
       "type": "package",
       "package": {
         "name" : "cakephp/cakephp",
-        "version" : "2.3.9",
+        "version" : "2.6.0",
         "dist": {
           "type" :"zip",
-          "url": "https://github.com/cakephp/cakephp/archive/2.3.9.zip"
+          "url": "https://github.com/cakephp/cakephp/archive/2.6.0.zip"
         },
         "source" : {
           "type" : "git",
           "url" : "git://github.com/cakephp/cakephp.git",
-          "reference" : "2.3.9"
+          "reference" : "2.6.0"
         },
         "bin" : ["lib/Cake/Console/cake"]
       }
